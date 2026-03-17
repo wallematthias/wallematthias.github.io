@@ -1,30 +1,42 @@
-<h1 align="center">Lab Website Template</h1>
-<p align="center">
-<img height="200" src="https://raw.githubusercontent.com/greenelab/lab-website-template/main/images/share.jpg?raw=true" alt="Lab Website Template">
-</p>
+# Matthias Walle Website
 
-Lab Website Template (LWT) is an easy-to-use, flexible website template for labs.
-Spend less time worrying about managing a website and citations, and more time running your lab.
+Personal academic website for Matthias Walle, focused on bone imaging, biomechanics, AI, and scientific software.
 
-👇👇 **Get Started** 👇👇
+Live site:
+[`https://wallematthias.github.io`](https://wallematthias.github.io)
 
-[**Documentation**](https://greene-lab.gitbook.io/lab-website-template-docs)
+## Local development
 
-## Key Features
+This site uses Jekyll and Bundler.
 
-- 🤖 Based on Git, GitHub, and Jekyll.
-- 📜 Automatically generated citations from simple identifiers (DOI, PubMed, ORCID, and many more) using Manubot. E.g. `doi:1234/5678` -> `title`, `authors`, `publisher`, `date`, etc.
-- 🧱 A comprehensive and flexible suite of pre-made components (building blocks) for structuring and styling your website:
-  - Formatted tables, code blocks, figures, and other basic elements.
-  - Citations with thumbnails and other rich details.
-  - List large sets of data with flexible filters and components.
-  - ...many more
-- 👁️ Automatic pull request previews.
-- ⚙️ Easy and automated configuration.
-- 👥 Team member pages with bios, roles, and social media links.
-- 🖋️ Blog posts with tags and rich content.
-- 📱 Works and looks good on desktop and mobile.
-- 🤝 Great documentation and support (if we do say so ourselves).
-- ... and much more!
+```bash
+cd /Users/matthias.walle/Documents/GitHub/website
+eval "$(rbenv init - zsh)"
+bundle _2.5.6_ install
+bundle _2.5.6_ exec jekyll serve
+```
 
-![GitHub last commit](https://img.shields.io/github/last-commit/greenelab/lab-website-template)
+Then open:
+
+```text
+http://127.0.0.1:4000
+```
+
+## Build
+
+```bash
+bundle _2.5.6_ exec jekyll build
+```
+
+## Deploy
+
+The repository is configured to deploy with GitHub Actions and GitHub Pages.
+
+Typical flow:
+
+1. Commit changes to `main`
+2. Push to GitHub
+3. GitHub Actions builds the site
+4. GitHub Pages deploys the built artifact
+
+In GitHub repository settings, set `Pages` to use `GitHub Actions` as the source.

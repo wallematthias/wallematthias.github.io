@@ -41,6 +41,13 @@ for plugin in plugins:
     # get all data files to process with current plugin
     files = Path.cwd().glob(f"_data/{plugin.stem}*.*")
     files = list(filter(lambda p: p.suffix in [".yaml", ".yml", ".json"], files))
+    if plugin.stem == "orcid":
+        files = list(
+            filter(
+                lambda p: p.name in ["orcid.yaml", "orcid.yml"],
+                files,
+            )
+        )
 
     log(f"Found {len(files)} {plugin.stem}* data file(s)", indent=1)
 

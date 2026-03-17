@@ -13,11 +13,17 @@ env:
   PREVIEWS_FOLDER: preview
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build-site:
     runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Debug dump
@@ -32,25 +38,23 @@ jobs:
           ruby-version: "3.1"
           bundler-cache: true
 
-      - name: Get Pages url
+      - name: Configure Pages
         id: pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
       - name: SSH debug
         if: runner.debug == '1'
         uses: mxschmitt/action-tmate@v3
 
-      - name: Set root url
-        run: |
-          printf "\n\nurl: ${{ steps.pages.outputs.origin }}" >> _config.yaml
-
       - name: Build live version of site
         run: |
           JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"
 
-      - name: Commit live site to Pages branch
-        uses: JamesIves/github-pages-deploy-action@v4.5.0
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          folder: _site
-          clean-exclude: ${{ env.PREVIEWS_FOLDER }}
-          force: false
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
