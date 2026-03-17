@@ -1,3 +1,13 @@
+{% assign feature_href = include.link %}
+{% unless feature_href contains "://" or feature_href contains "mailto:" or feature_href contains "tel:" or feature_href contains "#" %}
+  {% assign feature_href = feature_href | relative_url | uri_escape %}
+{% endunless %}
+
+{% assign feature_src = include.image %}
+{% unless feature_src contains "://" or feature_src contains "data:" %}
+  {% assign feature_src = feature_src | relative_url | uri_escape %}
+{% endunless %}
+
 <div
   class="feature"
   {% if include.flip %}
@@ -5,14 +15,14 @@
   {% endif %}
 >
   <a
-    {% if include.link %}
-      href="{{ include.link | relative_url | uri_escape }}"
+    {% if feature_href %}
+      href="{{ feature_href }}"
     {% endif %}
     class="feature-image"
     aria-label="{{ include.title | default: "feature link" | regex_strip }}"
   >
     <img
-      src="{{ include.image | relative_url | uri_escape }}"
+      src="{{ feature_src }}"
       loading="lazy"
       alt="{{ include.title | default: "feature image" | regex_strip }}"
       {% include fallback.html %}

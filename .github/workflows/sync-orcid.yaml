@@ -1,0 +1,32 @@
+name: sync-orcid
+run-name: sync ORCID works
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  sync-orcid:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout branch contents
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Sync ORCID works
+        run: python scripts/sync_orcid_publications.py
+
+      - name: Commit ORCID data updates
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Sync ORCID publications"
+          file_pattern: "_data/orcid_*.json"

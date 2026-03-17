@@ -1,0 +1,494 @@
+[
+  {
+    "title": "Association of immune checkpoint inhibitors with muscle mass and density in patients with melanoma",
+    "subtitle": "The Oncologist (2026)",
+    "description": "",
+    "link": "https://doi.org/10.1093/oncolo/oyag029",
+    "date": "2026-02-05",
+    "authors": [
+      "Susan Ziolkowski",
+      "Bryn E Matheson",
+      "Steven K Boyd",
+      "Matthias Walle",
+      "Jasmine Gill",
+      "John Walker",
+      "Thomas Salopek",
+      "Joshua F Baker",
+      "Ates Fettahoglu",
+      "Carrie Ye"
+    ],
+    "publisher": "The Oncologist",
+    "id": "doi:10.1093/oncolo/oyag029",
+    "type": "paper",
+    "tags": [
+      "journal-article",
+      "orcid"
+    ],
+    "featured": false,
+    "first_author": false
+  },
+  {
+    "title": "Structural alterations during fracture healing lead to void spaces developing in surrounding bone microarchitecture",
+    "subtitle": "Journal of Bone and Mineral Research (2025)",
+    "description": "",
+    "link": "https://doi.org/10.1093/jbmr/zjaf046",
+    "date": "2025-06-03",
+    "authors": [
+      "Danielle E Whittier",
+      "Matthias Walle",
+      "Penny R Atkins",
+      "Caitlyn J Collins",
+      "Matthias A Zumstein",
+      "Patrik Christen",
+      "Kurt Lippuner",
+      "Ralph M\u00fcller"
+    ],
+    "publisher": "Journal of Bone and Mineral Research",
+    "id": "doi:10.1093/jbmr/zjaf046",
+    "type": "paper",
+    "tags": [
+      "journal-article",
+      "orcid"
+    ],
+    "featured": false,
+    "first_author": false
+  },
+  {
+    "title": "Comparing linear and nonlinear finite element models of vertebral strength across the thoracolumbar spine: a benchmark from density-calibrated computed tomography",
+    "subtitle": "GigaScience (2025)",
+    "description": "",
+    "link": "https://doi.org/10.1093/gigascience/giaf094",
+    "date": "2025-01-06",
+    "authors": [
+      "Matthias Walle",
+      "Bryn E Matheson",
+      "Steven K Boyd"
+    ],
+    "publisher": "GigaScience",
+    "id": "doi:10.1093/gigascience/giaf094",
+    "type": "paper",
+    "tags": [
+      "journal-article",
+      "orcid"
+    ],
+    "featured": true,
+    "first_author": true,
+    "image": "https://opengraph.githubassets.com/1/Bonelab/spineFE-benchmark"
+  },
+  {
+    "title": "Quantifying localized bone loss in clinical computed tomography using void spaces",
+    "subtitle": "OSTEOPOROSIS INTERNATIONAL (2025)",
+    "description": "",
+    "link": "https://doi.org/10.1007/S00198-025-07558-2",
+    "date": "2025-01-01",
+    "authors": [
+      "Annabel R. Bugbird",
+      "Bryn E. Matheson",
+      "Matthias Walle",
+      "Nathan J. Neeteson",
+      "Nina Pavlovic",
+      "Callie E. Stirling",
+      "Danielle E. Whittier",
+      "Steven K. Boyd"
+    ],
+    "publisher": "OSTEOPOROSIS INTERNATIONAL",
+    "id": "doi:10.1007/S00198-025-07558-2",
+    "type": "paper",
+    "tags": [
+      "journal-article",
+      "orcid"
+    ],
+    "featured": false,
+    "first_author": false
+  },
+  {
+    "title": "Recovery of bone microarchitecture and density four years after spaceflight: two case studies",
+    "subtitle": "NPJ MICROGRAVITY (2025)",
+    "description": "",
+    "link": "https://doi.org/10.1038/S41526-025-00511-X",
+    "date": "2025-01-01",
+    "authors": [
+      "Bryn E. Matheson",
+      "Matthias Walle",
+      "Anna-Maria Liphardt",
+      "Paul A. Hulme",
+      "Martina Heer",
+      "Sara R. Zwart",
+      "Jean D. Sibonga",
+      "Scott M. Smith",
+      "Leigh Gabel",
+      "Steven K. Boyd"
+    ],
+    "publisher": "NPJ MICROGRAVITY",
+    "id": "doi:10.1038/S41526-025-00511-X",
+    "type": "paper",
+    "tags": [
+      "journal-article",
+      "orcid"
+    ],
+    "featured": false,
+    "first_author": false
+  },
+  {
+    "title": "Using solid-state MRI and a double-tuned RF coil to quantify bone matrix and mineral densities in rat bones",
+    "subtitle": "JOURNAL OF MAGNETIC RESONANCE (2025)",
+    "description": "",
+    "link": "https://doi.org/10.1016/J.JMR.2025.107925",
+    "date": "2025-01-01",
+    "authors": [
+      "Victor B. Kassey",
+      "Matthias Walle",
+      "Diana Yeritsyan",
+      "Daniel V. Kassey",
+      "Yaotang Wu",
+      "Brian D. Snyder",
+      "Edward K. Rodriguez",
+      "Jerome L. Ackerman",
+      "Ara Nazarian"
+    ],
+    "publisher": "JOURNAL OF MAGNETIC RESONANCE",
+    "id": "doi:10.1016/J.JMR.2025.107925",
+    "type": "paper",
+    "tags": [
+      "journal-article",
+      "orcid"
+    ],
+    "featured": false,
+    "first_author": false
+  },
+  {
+    "title": "Tracking of spaceflight-induced bone remodeling reveals a limited time frame for recovery of resorption sites in humans",
+    "subtitle": "Science Advances (2024)",
+    "description": "",
+    "link": "https://doi.org/10.1126/sciadv.adq3632",
+    "date": "2024-12-20",
+    "authors": [
+      "Matthias Walle",
+      "Leigh Gabel",
+      "Danielle E. Whittier",
+      "Anna-Maria Liphardt",
+      "Paul A. Hulme",
+      "Martina Heer",
+      "Sara R. Zwart",
+      "Scott M. Smith",
+      "Jean D. Sibonga",
+      "Steven K. Boyd"
+    ],
+    "publisher": "Science Advances",
+    "id": "doi:10.1126/sciadv.adq3632",
+    "type": "paper",
+    "tags": [
+      "journal-article",
+      "orcid"
+    ],
+    "featured": true,
+    "first_author": true,
+    "image": "https://raw.githubusercontent.com/wallematthias/TimelapsedHRpQCT/main/assets/TimelapsedHRpQCT-logo.png"
+  },
+  {
+    "title": "A graph model to describe the network connectivity of trabecular plates and rods",
+    "subtitle": "FRONTIERS IN BIOENGINEERING AND BIOTECHNOLOGY (2024)",
+    "description": "",
+    "link": "https://doi.org/10.3389/FBIOE.2024.1384280",
+    "date": "2024-01-01",
+    "authors": [
+      "Matthias Walle",
+      "Diana Yeritsyan",
+      "Mohammadreza Abbasian",
+      "Ramin Oftadeh",
+      "Ralph M\u00fcller",
+      "Ara Nazarian"
+    ],
+    "publisher": "FRONTIERS IN BIOENGINEERING AND BIOTECHNOLOGY",
+    "id": "doi:10.3389/FBIOE.2024.1384280",
+    "type": "paper",
+    "tags": [
+      "journal-article",
+      "orcid"
+    ],
+    "featured": false,
+    "first_author": true
+  },
+  {
+    "title": "Bone remodeling and responsiveness to mechanical stimuli in individuals with type 1 diabetes mellitus",
+    "subtitle": "JOURNAL OF BONE AND MINERAL RESEARCH (2024)",
+    "description": "",
+    "link": "https://doi.org/10.1093/JBMR/ZJAD014",
+    "date": "2024-01-01",
+    "authors": [
+      "Matthias Walle",
+      "Ankita Duseja",
+      "Danielle E Whittier",
+      "Tatiane Vilaca",
+      "Margaret Paggiosi",
+      "Richard Eastell",
+      "Ralph M\u00fcller",
+      "Caitlyn J Collins"
+    ],
+    "publisher": "JOURNAL OF BONE AND MINERAL RESEARCH",
+    "id": "doi:10.1093/JBMR/ZJAD014",
+    "type": "paper",
+    "tags": [
+      "journal-article",
+      "orcid"
+    ],
+    "featured": true,
+    "first_author": true,
+    "image": "https://raw.githubusercontent.com/wallematthias/TimelapsedHRpQCT/main/assets/TimelapsedHRpQCT-logo.png"
+  },
+  {
+    "title": "Quantitative 31P magnetic resonance imaging on pathologic rat bones by ZTE at 7T",
+    "subtitle": "BONE (2024)",
+    "description": "",
+    "link": "https://doi.org/10.1016/J.BONE.2023.116996",
+    "date": "2024-01-01",
+    "authors": [
+      "Victor B. Kassey",
+      "Matthias Walle",
+      "Jonathan Egan",
+      "Diana Yeritsyan",
+      "Indeevar Beeram",
+      "Yaotang Wu",
+      "Brian D. Snyder",
+      "Edward K. Rodriguez",
+      "Jerome L. Ackerman",
+      "Ara Nazarian"
+    ],
+    "publisher": "BONE",
+    "id": "doi:10.1016/J.BONE.2023.116996",
+    "type": "paper",
+    "tags": [
+      "journal-article",
+      "orcid"
+    ],
+    "featured": false,
+    "first_author": false
+  },
+  {
+    "title": "Quantitative <SUP>1</SUP>H Magnetic Resonance Imaging on Normal and Pathologic Rat Bones by Solid-State <SUP>1</SUP>H ZTE Sequence with Water and Fat Suppression",
+    "subtitle": "JOURNAL OF MAGNETIC RESONANCE IMAGING (2024)",
+    "description": "",
+    "link": "https://doi.org/10.1002/JMRI.29361",
+    "date": "2024-01-01",
+    "authors": [
+      "V\u00edctor B. Kassey",
+      "Matthias Walle",
+      "Jonathan Egan",
+      "Diana Yeritsyan",
+      "Indeevar Beeram",
+      "Sharon P. Kassey",
+      "Yaotang Wu",
+      "Brian D. Snyder",
+      "Edward K. Rodriguez",
+      "Jerome L. Ackerman",
+      "Ara Nazarian"
+    ],
+    "publisher": "JOURNAL OF MAGNETIC RESONANCE IMAGING",
+    "id": "doi:10.1002/JMRI.29361",
+    "type": "paper",
+    "tags": [
+      "journal-article",
+      "orcid"
+    ],
+    "featured": false,
+    "first_author": false
+  },
+  {
+    "title": "A multi-stack registration technique to improve measurement accuracy and precision across longitudinal HR-pQCT scans",
+    "subtitle": "BONE (2023)",
+    "description": "",
+    "link": "https://doi.org/10.1016/J.BONE.2023.116893",
+    "date": "2023-01-01",
+    "authors": [
+      "Danielle E. Whittier",
+      "Matthias Walle",
+      "Denis Schenk",
+      "Penny R. Atkins",
+      "Caitlyn J. Collins",
+      "Philippe Zysset",
+      "Kurt Lippuner",
+      "Ralph M\u00fcller"
+    ],
+    "publisher": "BONE",
+    "id": "doi:10.1016/J.BONE.2023.116893",
+    "type": "paper",
+    "tags": [
+      "journal-article",
+      "orcid"
+    ],
+    "featured": true,
+    "first_author": false,
+    "image": "https://opengraph.githubassets.com/1/wallematthias/MultistackRegistration"
+  },
+  {
+    "title": "Mechanostat parameters estimated from time-lapsed <i>in vivo</i> micro-computed tomography data of mechanically driven bone adaptation are logarithmically dependent on loading frequency",
+    "subtitle": "FRONTIERS IN BIOENGINEERING AND BIOTECHNOLOGY (2023)",
+    "description": "",
+    "link": "https://doi.org/10.3389/FBIOE.2023.1140673",
+    "date": "2023-01-01",
+    "authors": [
+      "Francisco C. Marques",
+      "Daniele Boaretti",
+      "Matthias Walle",
+      "Ariane C. Scheuren",
+      "Friederike A. Schulte",
+      "Ralph M\u00fcller"
+    ],
+    "publisher": "FRONTIERS IN BIOENGINEERING AND BIOTECHNOLOGY",
+    "id": "doi:10.3389/FBIOE.2023.1140673",
+    "type": "paper",
+    "tags": [
+      "journal-article",
+      "orcid"
+    ],
+    "featured": false,
+    "first_author": false
+  },
+  {
+    "title": "Mechanostat parameters estimated from time-lapsed in vivo micro-computed tomography data of mechanically driven bone adaptation are logarithmically dependent on loading frequency",
+    "subtitle": "bioRxiv (2023)",
+    "description": "",
+    "link": "https://doi.org/10.1101/2023.01.07.523082",
+    "date": "2023-01-01",
+    "authors": [
+      "Francisco C. Marques",
+      "Daniele Boaretti",
+      "Matthias Walle",
+      "Ariane C. Scheuren",
+      "Friederike A. Schulte",
+      "Ralph M\u00fcller"
+    ],
+    "publisher": "bioRxiv",
+    "id": "doi:10.1101/2023.01.07.523082",
+    "type": "paper",
+    "tags": [
+      "journal-article",
+      "orcid"
+    ],
+    "featured": false,
+    "first_author": false
+  },
+  {
+    "title": "Motion grading of high-resolution quantitative computed tomography supported by deep convolutional neural networks",
+    "subtitle": "BONE (2023)",
+    "description": "",
+    "link": "https://doi.org/10.1016/J.BONE.2022.116607",
+    "date": "2023-01-01",
+    "authors": [
+      "Matthias Walle",
+      "Dominic Eggemann",
+      "Penny R. Atkins",
+      "Jack J. Kendall",
+      "Kerstin Stock",
+      "Ralph M\u00fcller",
+      "Caitlyn J. Collins"
+    ],
+    "publisher": "BONE",
+    "id": "doi:10.1016/J.BONE.2022.116607",
+    "type": "paper",
+    "tags": [
+      "journal-article",
+      "orcid"
+    ],
+    "featured": false,
+    "first_author": true
+  },
+  {
+    "title": "Precision of bone mechanoregulation assessment in humans using longitudinal high-resolution peripheral quantitative computed tomography in vivo",
+    "subtitle": "BONE (2023)",
+    "description": "",
+    "link": "https://doi.org/10.1016/J.BONE.2023.116780",
+    "date": "2023-01-01",
+    "authors": [
+      "Matthias Walle",
+      "Danielle E. Whittier",
+      "Denis Schenk",
+      "Penny R. Atkins",
+      "Michael Blauth",
+      "Philippe Zysset",
+      "Kurt Lippuner",
+      "Ralph M\u00fcller",
+      "Caitlyn J. Collins"
+    ],
+    "publisher": "BONE",
+    "id": "doi:10.1016/J.BONE.2023.116780",
+    "type": "paper",
+    "tags": [
+      "journal-article",
+      "orcid"
+    ],
+    "featured": true,
+    "first_author": true,
+    "image": "https://raw.githubusercontent.com/wallematthias/TimelapsedHRpQCT/main/assets/TimelapsedHRpQCT-logo.png"
+  },
+  {
+    "title": "Meta-analysis of Diabetes Mellitus-Associated Differences in Bone Structure Assessed by High-Resolution Peripheral Quantitative Computed Tomography",
+    "subtitle": "CURRENT OSTEOPOROSIS REPORTS (2022)",
+    "description": "",
+    "link": "https://doi.org/10.1007/S11914-022-00755-6",
+    "date": "2022-01-01",
+    "authors": [
+      "Matthias Walle",
+      "Danielle E. Whittier",
+      "Morten Frost",
+      "Ralph M\u00fcller",
+      "Caitlyn J. Collins"
+    ],
+    "publisher": "CURRENT OSTEOPOROSIS REPORTS",
+    "id": "doi:10.1007/S11914-022-00755-6",
+    "type": "paper",
+    "tags": [
+      "journal-article",
+      "orcid"
+    ],
+    "featured": false,
+    "first_author": true
+  },
+  {
+    "title": "Application of subject-specific adaptive mechanical loading for bone healing in a mouse tail vertebral defect",
+    "subtitle": "SCIENTIFIC REPORTS (2021)",
+    "description": "",
+    "link": "https://doi.org/10.1038/S41598-021-81132-8",
+    "date": "2021-01-01",
+    "authors": [
+      "Angad Malhotra",
+      "Matthias Walle",
+      "Graeme R. Paul",
+      "Gisela A. Kuhn",
+      "Ralph M\u00fcller"
+    ],
+    "publisher": "SCIENTIFIC REPORTS",
+    "id": "doi:10.1038/S41598-021-81132-8",
+    "type": "paper",
+    "tags": [
+      "journal-article",
+      "orcid"
+    ],
+    "featured": false,
+    "first_author": false
+  },
+  {
+    "title": "Bone Mechanoregulation Allows Subject-Specific Load Estimation Based on Time-Lapsed Micro-CT and HR-pQCT <i>in Vivo</i>",
+    "subtitle": "FRONTIERS IN BIOENGINEERING AND BIOTECHNOLOGY (2021)",
+    "description": "",
+    "link": "https://doi.org/10.3389/FBIOE.2021.677985",
+    "date": "2021-01-01",
+    "authors": [
+      "Matthias Walle",
+      "Francisco C. Marques",
+      "Nicholas Ohs",
+      "Michael Blauth",
+      "Ralph M\u00fcller",
+      "Caitlyn J. Collins"
+    ],
+    "publisher": "FRONTIERS IN BIOENGINEERING AND BIOTECHNOLOGY",
+    "id": "doi:10.3389/FBIOE.2021.677985",
+    "type": "paper",
+    "tags": [
+      "journal-article",
+      "orcid"
+    ],
+    "featured": false,
+    "first_author": true
+  }
+]

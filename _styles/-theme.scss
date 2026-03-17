@@ -3,33 +3,33 @@
 
 // colors
 [data-dark="false"] {
-  --primary: #0795d9;
-  --secondary: #7dd3fc;
-  --text: #000000;
-  --background: #ffffff;
-  --background-alt: #fafafa;
-  --light-gray: #e0e0e0;
-  --gray: #808080;
-  --dark-gray: #404040;
-  --overlay: #00000020;
+  --primary: #1e63c6;
+  --secondary: #dfeafb;
+  --text: #1f2b3d;
+  --background: #fffdfa;
+  --background-alt: #f4f8ff;
+  --light-gray: #d8e3f0;
+  --gray: #6d7a8f;
+  --dark-gray: #324056;
+  --overlay: rgba(255, 251, 245, 0.28);
 }
 [data-dark="true"] {
-  --primary: #0795d9;
-  --secondary: #075985;
-  --text: #ffffff;
-  --background: #181818;
-  --background-alt: #1c1c1c;
-  --light-gray: #404040;
-  --gray: #808080;
-  --dark-gray: #b0b0b0;
-  --overlay: #ffffff10;
+  --primary: #9ec5ff;
+  --secondary: #1f355d;
+  --text: #eef4ff;
+  --background: #12203a;
+  --background-alt: #172848;
+  --light-gray: #294267;
+  --gray: #a3b6d4;
+  --dark-gray: #f5f8ff;
+  --overlay: rgba(10, 19, 37, 0.3);
 }
 
 :root {
   // font families
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
+  --title: "Fraunces", serif;
+  --heading: "Fraunces", serif;
+  --body: "Manrope", sans-serif;
   --code: "Roboto Mono", monospace;
 
   // font sizes
@@ -48,7 +48,7 @@
   --compact: 1.5;
 
   // effects
-  --rounded: 3px;
-  --shadow: 0 0 10px 0 var(--overlay);
+  --rounded: 14px;
+  --shadow: 0 12px 32px rgba(34, 58, 94, 0.1);
   --transition: 0.2s ease;
 }

@@ -12,6 +12,13 @@ footer {
   box-shadow: var(--shadow);
 }
 
+footer[data-dark="false"] {
+  --primary: #1e63c6;
+  --text: #1f2b3d;
+  --background: #fffdfa;
+  --overlay: rgba(255, 251, 245, 0.28);
+}
+
 footer a {
   color: var(--text) !important;
 }

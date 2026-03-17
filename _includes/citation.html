@@ -8,18 +8,33 @@
   {% assign citation = include %}
 {% endif %}
 
+{% assign citation_image = citation.image %}
+{% unless citation_image contains "://" or citation_image contains "data:" %}
+  {% assign citation_image = citation_image | relative_url | uri_escape %}
+{% endunless %}
+
+{% assign citation_href = citation.link %}
+{% unless citation_href contains "://" or citation_href contains "mailto:" or citation_href contains "tel:" or citation_href contains "#" %}
+  {% assign citation_href = citation_href | relative_url | xml_escape %}
+{% endunless %}
+
+{% assign has_authors = citation.authors and citation.authors.size > 0 %}
+{% assign has_publisher = citation.publisher and citation.publisher != "" %}
+{% assign has_date = citation.date and citation.date != "" %}
+{% assign has_id = citation.id and citation.id != "" %}
+
 <div class="citation-container">
   <div class="citation">
-    {% if include.style == "rich" %}
+    {% if include.style == "rich" and citation_image and citation_image != "" %}
       <a
-        {% if citation.link %}
-          href="{{ citation.link | relative_url | uri_escape }}"
+        {% if citation_href %}
+          href="{{ citation_href }}"
         {% endif %}
         class="citation-image"
         aria-label="{{ citation.title | default: "citation link" | regex_strip }}"
       >
         <img
-          src="{{ citation.image | relative_url | uri_escape }}"
+          src="{{ citation_image }}"
           alt="{{ citation.title | default: "citation image" | regex_strip }}"
           loading="lazy"
           {% include fallback.html %}
@@ -32,46 +47,55 @@
       {% include icon.html icon=type.icon %}
 
       <a
-        {% if citation.link %}
-          href="{{ citation.link | relative_url | xml_escape }}"
+        {% if citation_href %}
+          href="{{ citation_href }}"
         {% endif %}
         class="citation-title"
       >
         {{ citation.title | default: "[no title info]" }}
       </a>
 
-      <div
-        class="citation-authors"
-        {% if citation.authors.size > 10 %}
-          data-tooltip="{{ citation.authors | join: ", " | xml_escape }}"
-        {% endif %}
-        tabindex="0"
-      >
-        {{
-          citation.authors
-          | join: ","
-          | split: ","
-          | array_carve: 5
-          | join: ", "
-          | markdownify
-          | remove: "<p>" | remove: "</p>"
-          | default: "[no author info]"
-        }}
-      </div>
+      {% if has_authors %}
+        <div
+          class="citation-authors"
+          {% if citation.authors.size > 10 %}
+            data-tooltip="{{ citation.authors | join: ", " | xml_escape }}"
+          {% endif %}
+          tabindex="0"
+        >
+          {{
+            citation.authors
+            | join: ","
+            | split: ","
+            | array_carve: 5
+            | join: ", "
+            | markdownify
+            | remove: "<p>" | remove: "</p>"
+          }}
+        </div>
+      {% endif %}
 
-      <div class="citation-details">
-        <span class="citation-publisher">
-          {{- citation.publisher | default: "[no publisher info]" -}}
-        </span>
-        &nbsp;·&nbsp;
-        <span class="citation-date">
-          {{- citation.date | default: "[no date info]" | date: "%d %b %Y" -}}
-        </span>
-        &nbsp;·&nbsp;
-        <span class="citation-id">
-          {{- citation.id | default: "[no id info]" -}}
-        </span>
-      </div>
+      {% if has_publisher or has_date or has_id %}
+        <div class="citation-details">
+          {% if has_publisher %}
+            <span class="citation-publisher">
+              {{- citation.publisher -}}
+            </span>
+          {% endif %}
+          {% if has_date %}
+            {% if has_publisher %}&nbsp;·&nbsp;{% endif %}
+            <span class="citation-date">
+              {{- citation.date | date: "%d %b %Y" -}}
+            </span>
+          {% endif %}
+          {% if has_id %}
+            {% if has_publisher or has_date %}&nbsp;·&nbsp;{% endif %}
+            <span class="citation-id">
+              {{- citation.id -}}
+            </span>
+          {% endif %}
+        </div>
+      {% endif %}
 
       {% if include.style == "rich" %}
         {% if citation.description %}

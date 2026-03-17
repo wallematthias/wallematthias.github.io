@@ -5,6 +5,7 @@
   position: relative;
   background: var(--background);
   color: var(--text);
+  overflow: hidden;
   z-index: 1;
 }
 
@@ -16,6 +17,17 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  opacity: 0.25;
+  opacity: 0.42;
+  transform: scale(1.01);
+  z-index: -1;
+}
+
+.background:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, var(--overlay), rgba(255, 255, 255, 0.03)),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05), transparent 45%);
   z-index: -1;
 }

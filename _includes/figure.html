@@ -1,13 +1,23 @@
+{% assign figure_href = include.link %}
+{% unless figure_href contains "://" or figure_href contains "mailto:" or figure_href contains "tel:" or figure_href contains "#" %}
+  {% assign figure_href = figure_href | relative_url | uri_escape %}
+{% endunless %}
+
+{% assign figure_src = include.image %}
+{% unless figure_src contains "://" or figure_src contains "data:" %}
+  {% assign figure_src = figure_src | relative_url | uri_escape %}
+{% endunless %}
+
 <figure class="figure">
   <a
-    {% if include.link %}
-      href="{{ include.link | relative_url | uri_escape }}"
+    {% if figure_href %}
+      href="{{ figure_href }}"
     {% endif %}
     class="figure-image"
     aria-label="{{ include.caption | default: "figure link" | regex_strip }}"
   >
     <img
-      src="{{ include.image | relative_url | uri_escape }}"
+      src="{{ figure_src }}"
       style="
         width: {{ include.width | default: "auto" }};
         max-height: {{ include.height | default: "unset" }};

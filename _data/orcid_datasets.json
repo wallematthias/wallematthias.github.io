@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Comparing Linear and Nonlinear Finite Element Models of Vertebral Strength Across the Thoracolumbar Spine: A Benchmark from Density-Calibrated Computed Tomography",
+    "subtitle": "Data Set (2025)",
+    "description": "",
+    "link": "https://zenodo.org/doi/10.5281/zenodo.15313259",
+    "date": "2025-04-30",
+    "authors": [
+      "Matthias Walle",
+      "Bryn E. Matheson",
+      "Steven K. Boyd"
+    ],
+    "publisher": "Data Set",
+    "id": "doi:10.5281/ZENODO.15313259",
+    "type": "data",
+    "tags": [
+      "data-set",
+      "orcid"
+    ],
+    "featured": true,
+    "first_author": true,
+    "image": "images/fallback.svg"
+  },
+  {
+    "title": "Pretrained nnU-Net Models for 3D Segmentation of CT Reference Tissues for Phantomless Calibration",
+    "subtitle": "Data Set (2025)",
+    "description": "",
+    "link": "https://zenodo.org/doi/10.5281/zenodo.15238423",
+    "date": "2025-04-17",
+    "authors": [
+      "Matthias Walle",
+      "Bryn E. Matheson",
+      "Steven K. Boyd"
+    ],
+    "publisher": "Data Set",
+    "id": "doi:10.5281/ZENODO.15238423",
+    "type": "data",
+    "tags": [
+      "data-set",
+      "orcid"
+    ],
+    "featured": false,
+    "first_author": true
+  },
+  {
+    "title": "Pretrained nnU-Net Models for 3D Segmentation of Vertebral Bodies and Spinous Processes",
+    "subtitle": "Data Set (2025)",
+    "description": "",
+    "link": "https://zenodo.org/doi/10.5281/zenodo.15238176",
+    "date": "2025-04-17",
+    "authors": [
+      "Matthias Walle",
+      "Bryn E. Matheson",
+      "Steven K. Boyd"
+    ],
+    "publisher": "Data Set",
+    "id": "doi:10.5281/ZENODO.15238176",
+    "type": "data",
+    "tags": [
+      "data-set",
+      "orcid"
+    ],
+    "featured": false,
+    "first_author": true
+  }
+]

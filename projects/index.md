@@ -2,15 +2,14 @@
 title: Projects
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: Software and pipelines
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+These projects reflect the way I approach scientific computing: build tools that are methodologically serious, realistic about messy imaging data, and practical enough that collaborators can run them, inspect them, and extend them.
 
-{% include tags.html tags="publication, resource, website" %}
+{% include tags.html tags="software, imaging, hr-pqct, ct, slicer" %}
 
 {% include search-info.html %}
 
@@ -22,6 +21,15 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include section.html %}
 
-## More
+## More Work
 
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
+{% assign more_projects = site.data.projects | where_exp: "item", "item.group != 'featured'" %}
+{% for item in more_projects %}
+  {% include citation.html title=item.title subtitle=item.subtitle publisher=item.repo date="" id="" link=item.link description=item.description tags=item.tags style="rich" %}
+{% endfor %}
+
+{% include section.html %}
+
+## Data
+
+Some project outputs also ship with public datasets and benchmark resources. The current public dataset section lives on the [Datasets](../datasets/) page and is set up to expand over time.

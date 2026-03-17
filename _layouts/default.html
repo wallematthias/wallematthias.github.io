@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" data-dark="false">
   {% include head.html %}
-  <body>
+  <body data-page="{% if page.url == '/' %}home{% else %}{{ page.url | replace: '/', ' ' | strip | replace: ' ', '-' | default: 'page' }}{% endif %}">
     {% include header.html %}
     <main>
       {% include content.html content=content %}

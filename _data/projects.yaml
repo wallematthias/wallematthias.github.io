@@ -1,47 +1,64 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: Timelapsed HR-pQCT
+  subtitle: Longitudinal remodelling analysis pipeline
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: https://raw.githubusercontent.com/wallematthias/TimelapsedHRpQCT/main/assets/TimelapsedHRpQCT-logo.png
+  link: https://github.com/wallematthias/TimelapsedHRpQCT
+  description: A highlighted project and the main current codebase for automated analysis of time-lapsed HR-pQCT scans, including multistack support, registration, transform handling, fused outputs, and remodelling metrics.
+  repo: wallematthias/TimelapsedHRpQCT
   tags:
-    - resource
+    - hr-pqct
+    - longitudinal
+    - analysis
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: spineFE-benchmark
+  subtitle: Vertebral strength benchmark from CT
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: images/spineFE.png
+  image_fit: contain
+  link: https://github.com/Bonelab/spineFE-benchmark
+  description: Reproducible code and supporting resources for benchmarking linear and nonlinear finite element models of vertebral strength across the thoracolumbar spine using density-calibrated CT data.
+  repo: Bonelab/spineFE-benchmark
   tags:
-    - resource
+    - ct
+    - finite-element
+    - benchmark
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Multistack Registration
+  subtitle: Modular HR-pQCT processing package
+  link: https://github.com/wallematthias/MultistackRegistration
+  description: A refactored package for longitudinal HR-pQCT processing with explicit transform semantics, single-resampling workflow design, and YAML-driven configuration.
+  repo: wallematthias/MultistackRegistration
   tags:
-    - resource
-    - publication
+    - registration
+    - hr-pqct
+    - python
 
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: MotionScoreCNN
+  subtitle: Deep-learning motion scoring for HR-pQCT
+  link: https://github.com/wallematthias/MotionScoreCNN
+  description: A command-line tool for automated and semi-manual motion grading of HR-pQCT scans using an ensemble of deep convolutional neural networks and visual diagnostics.
+  repo: wallematthias/MotionScoreCNN
   tags:
-    - software
+    - hr-pqct
+    - deep-learning
+    - quality-control
 
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: BoneQuantMRI
+  subtitle: MATLAB bone MRI analysis tool
+  link: https://github.com/wallematthias/BoneQuantMRI
+  description: A MATLAB tool for analyzing bone MRI images with ROI-based segmentation, phantom calibration, visualization, and export workflows for quantitative image analysis.
+  repo: wallematthias/BoneQuantMRI
   tags:
-    - software
+    - mri
+    - matlab
+    - quantitative-imaging
+
+- title: ImageGuidedStrain
+  subtitle: Registration-based strain estimation
+  link: https://github.com/wallematthias/ImageGuidedStrain
+  description: A project for multi-resolution Demons registration on 3D images and von Mises strain estimation, following the strain-analysis approach described by Zwahlen et al.
+  repo: wallematthias/ImageGuidedStrain
+  tags:
+    - registration
+    - strain
+    - image-analysis

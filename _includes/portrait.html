@@ -7,8 +7,6 @@
   {% assign member = include %}
 {% endif %}
 
-{% assign type = site.data.types[member.role] %}
-
 <div class="portrait-wrapper">
   <a
     {% if page.slug != member.slug %}
@@ -18,9 +16,13 @@
     data-style="{{ include.style }}"
     aria-label="{{ member.name | default: "member link" | regex_strip }}"
   >
-    {% if type %}
-      {% include icon.html icon=type.icon %}
-    {% endif %}
+    <span class="portrait-badge">
+      <img
+        src="{{ 'images/icon.png' | relative_url | uri_escape }}"
+        alt="site icon"
+        loading="lazy"
+      >
+    </span>
 
     <img
       src="{{ member.image | relative_url | uri_escape }}"
@@ -36,9 +38,9 @@
       </span>
     {% endif %}
 
-    {% if member.description or type %}
+    {% if member.description %}
       <span class="portrait-description">
-        {{ member.description | default: type.description }}
+        {{ member.description }}
       </span>
     {% endif %}
 

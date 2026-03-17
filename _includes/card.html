@@ -1,14 +1,27 @@
+{% assign image_src = include.image %}
+{% unless image_src contains "://" or image_src contains "data:" %}
+  {% assign image_src = image_src | relative_url | uri_escape %}
+{% endunless %}
+
+{% assign card_href = include.link %}
+{% unless card_href contains "://" or card_href contains "mailto:" or card_href contains "tel:" or card_href contains "#" %}
+  {% assign card_href = card_href | relative_url | uri_escape %}
+{% endunless %}
+
 {{ " " }}
 <div class="card" data-style="{{ include.style }}">
   <a
-    {% if include.link %}
-      href="{{ include.link | relative_url | uri_escape }}"
+    {% if card_href %}
+      href="{{ card_href }}"
     {% endif %}
     aria-label="{{ include.title | default: "card link" | regex_strip }}"
     class="card-image"
+    {% if include.image_fit %}
+      data-fit="{{ include.image_fit }}"
+    {% endif %}
   >
     <img
-      src="{{ include.image | relative_url | uri_escape }}"
+      src="{{ image_src }}"
       alt="{{ include.title | default: "card image" | regex_strip }}"
       loading="lazy"
       {% include fallback.html %}
@@ -18,8 +31,8 @@
   <div class="card-text">
     {% if include.title %}
       <a
-        {% if include.link %}
-          href="{{ include.link | relative_url | uri_escape }}"
+        {% if card_href %}
+          href="{{ card_href }}"
         {% endif %}
         {% if include.tooltip %}
           data-tooltip="{{ include.tooltip | xml_escape }}"

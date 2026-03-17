@@ -1,0 +1,10 @@
+- title: Vertebral Strength CT Benchmark Dataset
+  subtitle: Zenodo dataset for spineFE-benchmark
+  image: images/photo.png
+  link: https://zenodo.org/records/15313259
+  description: Calibrated, resampled, and re-aligned CT images with segmentation masks for non-fractured thoracolumbar vertebrae from VerSe'19, prepared for benchmarking vertebral finite element modelling workflows.
+  tags:
+    - zenodo
+    - ct
+    - spine
+    - dataset

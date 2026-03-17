@@ -6,6 +6,10 @@ principal-investigator:
   icon: fa-solid fa-microscope
   description: Principal Investigator
 
+researcher:
+  icon: fa-solid fa-brain
+  description: Researcher and Scientific Software Developer
+
 postdoc:
   icon: fa-solid fa-glasses
   description: Postdoctoral Researcher

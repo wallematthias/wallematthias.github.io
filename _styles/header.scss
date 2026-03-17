@@ -1,8 +1,8 @@
 ---
 ---
 
-$logo-big: 80px;
-$logo: 40px;
+$logo-big: 132px;
+$logo: 64px;
 $big-padding: 100px;
 $collapse: 700px;
 $sticky: true;
@@ -23,6 +23,13 @@ header {
   }
 }
 
+header[data-dark="false"] {
+  --primary: #1e63c6;
+  --text: #1f2b3d;
+  --background: #fffdfa;
+  --overlay: rgba(255, 251, 245, 0.28);
+}
+
 header a {
   color: var(--text);
   text-decoration: none;
@@ -40,11 +47,16 @@ header a {
 
 .logo {
   height: $logo;
+  width: auto;
+  overflow: visible;
+  box-shadow: none;
 }
 
 .logo > * {
-  width: unset;
+  width: auto;
   height: 100%;
+  max-width: min(280px, 60vw);
+  object-fit: contain;
 }
 
 .title-text {
@@ -102,6 +114,7 @@ nav {
   gap: 10px;
   font-family: var(--heading);
   text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
 nav > a {

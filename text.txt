@@ -1,0 +1,15 @@
+
+
+1.	Lecturer, OsNET Summer School 2025, University of Calgary. 
+Preparation, implementation and instruction of the first OsNET summer school.  Responsible for delivering 2 lecture sessions (40 Students). 	06/25-06/25
+2.	Senior teaching assistant, Imaging and Computing in Medicine, ETH Zürich.
+Preparation, implementation and instruction of six flipped classroom sessions, co-supervision and coordination of undergraduate tutors, and managing the course moodle page (200 students).	03/20 – 09/23
+3.	Examiner, Orthopaedic Biomechanics, ETH Zürich.
+Oral examination of bachelor students on topics in mechanical and structural engineering of the musculoskeletal system alongside the analysis and design of orthopaedic solutions (50 students).	09/21 – 12/21
+4.	Teaching assistant, Principles of Modern Information Technology I and II, TU Munich.
+Developed and presented exercises on modern information technology to engineering students (800 students).	10/16 – 03/17
+
+Guest lectures 
+1.	M. Walle. Modelling and simulations. Guest lecture, Medical Imaging Applications (MDSC 689.11), University of Calgary, Calgary, Canada.	03/24
+2.	M. Walle. Bones under pressure: how mechanical forces influence bone remodelling in diabetes. Guest lecture, Mechanobiology (ME 602), Boise State University, Boise, Idaho, USA.	11/23
+
