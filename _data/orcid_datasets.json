@@ -19,7 +19,7 @@
     ],
     "featured": true,
     "first_author": true,
-    "image": "images/fallback.svg"
+    "image": "images/photo.png"
   },
   {
     "title": "Pretrained nnU-Net Models for 3D Segmentation of CT Reference Tissues for Phantomless Calibration",
