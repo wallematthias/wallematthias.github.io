@@ -1,5 +1,26 @@
 [
   {
+    "title": "Impact of calibration approach on image quality and volumetric bone mineral density in low-dose chest computed tomography",
+    "subtitle": "Medical Engineering & Physics (2026)",
+    "description": "",
+    "link": "https://doi.org/10.1088/1873-4030/ae8dcd",
+    "date": "2026-07-01",
+    "authors": [
+      "Bryn E Matheson",
+      "Matthias Walle",
+      "Steven K Boyd"
+    ],
+    "publisher": "Medical Engineering & Physics",
+    "id": "doi:10.1088/1873-4030/ae8dcd",
+    "type": "paper",
+    "tags": [
+      "journal-article",
+      "orcid"
+    ],
+    "featured": false,
+    "first_author": false
+  },
+  {
     "title": "Association of immune checkpoint inhibitors with muscle mass and density in patients with melanoma",
     "subtitle": "The Oncologist (2026)",
     "description": "",
