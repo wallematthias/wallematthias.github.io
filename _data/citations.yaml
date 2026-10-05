@@ -1,265 +1,519 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/2025.06.19.660613
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+- id: doi:10.1088/1873-4030/ae8dcd
+  title: Impact of calibration approach on image quality and volumetric bone mineral
+    density in low-dose chest computed tomography
   authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
+  - Bryn E Matheson
+  - Matthias Walle
+  - Steven K Boyd
+  publisher: Medical Engineering &amp; Physics
+  date: '2026-07-01'
+  link: https://doi.org/hcb8qd
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/oncolo/oyag029
+  title: Association of immune checkpoint inhibitors with muscle mass and density
+    in patients with melanoma
+  authors:
+  - Susan Ziolkowski
+  - Bryn E Matheson
+  - Steven K Boyd
+  - Matthias Walle
+  - Jasmine Gill
+  - John Walker
+  - Thomas Salopek
+  - Joshua F Baker
+  - Ates Fettahoglu
+  - Carrie Ye
+  publisher: The Oncologist
+  date: '2026-02-05'
+  link: https://doi.org/hcmks8
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/jbmr/zjaf046
+  title: Structural alterations during fracture healing lead to void spaces developing
+    in surrounding bone microarchitecture
+  authors:
+  - Danielle E Whittier
+  - Matthias Walle
+  - Penny R Atkins
+  - Caitlyn J Collins
+  - Matthias A Zumstein
+  - Patrik Christen
+  - Kurt Lippuner
+  - "Ralph M\xFCller"
+  publisher: Journal of Bone and Mineral Research
+  date: '2025-03-22'
+  link: https://doi.org/hcmks9
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.5281/ZENODO.15313259
+  title: 'Comparing Linear and Nonlinear Finite Element Models of Vertebral Strength
+    Across the Thoracolumbar Spine: A Benchmark from Density-Calibrated Computed Tomography'
+  authors:
+  - Matthias Walle
+  - Bryn E. Matheson
+  - Steven K. Boyd
+  publisher: Zenodo
+  date: '2025-04-30'
+  link: https://doi.org/hcmktb
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2025.04.19.649449
+  title: 'Comparing Linear and Nonlinear Finite Element Models of Vertebral Strength
+    Across the Thoracolumbar Spine: A Benchmark from Density-Calibrated Computed Tomography'
+  authors:
+  - Matthias Walle
+  - Bryn E. Matheson
+  - Steven K. Boyd
   publisher: openRxiv
-  date: '2025-06-25'
-  link: https://doi.org/g9rfr3
-  orcid: 0000-0002-4655-3773
+  date: '2025-04-23'
+  link: https://doi.org/g9gqpf
+  orcid: 0000-0003-3250-8143
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- id: doi:10.5281/ZENODO.15238423
+  title: Pretrained nnU-Net Models for 3D Segmentation of CT Reference Tissues for
+    Phantomless Calibration
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
+  - Matthias Walle
+  - Bryn E. Matheson
+  - Steven K. Boyd
+  publisher: Zenodo
+  date: '2025-04-17'
+  link: https://doi.org/hcmktc
+  orcid: 0000-0003-3250-8143
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
+- id: doi:10.5281/ZENODO.15238176
+  title: Pretrained nnU-Net Models for 3D Segmentation of Vertebral Bodies and Spinous
+    Processes
   authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: openRxiv
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
+  - Matthias Walle
+  - Bryn E. Matheson
+  - Steven K. Boyd
+  publisher: Zenodo
+  date: '2025-04-17'
+  link: https://doi.org/hccdn4
+  orcid: 0000-0003-3250-8143
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.1093/gigascience/giaf094
+  title: 'Comparing linear and nonlinear finite element models of vertebral strength
+    across the thoracolumbar spine: a benchmark from density-calibrated computed tomography'
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
-  authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: openRxiv
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
-  authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
+  - Matthias Walle
+  - Bryn E Matheson
+  - Steven K Boyd
   publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
+  date: '2025-01-01'
+  link: https://doi.org/g9trwv
+  orcid: 0000-0003-3250-8143
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
+- id: wosuid:WOS:001693041200425
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:001693041200425
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/S00198-025-07558-2
+  title: Quantifying localized bone loss in clinical computed tomography using void
+    spaces
   authors:
-  - Faisal S Alquaddoomi
-  - Joseph T Burke
-  - Lo Sosinski
-  - David A Mayer
-  - Evan P Brenner
-  - Samuel Z Chen
-  - Jacob D Krol
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
+  - Annabel R. Bugbird
+  - Bryn E. Matheson
+  - Matthias Walle
+  - Nathan J. Neeteson
+  - Nina Pavlovic
+  - Callie E. Stirling
+  - Danielle E. Whittier
+  - Steven K. Boyd
+  publisher: Osteoporosis International
+  date: '2025-06-10'
+  link: https://doi.org/g9p8bh
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41526-025-00511-X
+  title: 'Recovery of bone microarchitecture and density four years after spaceflight:
+    two case studies'
+  authors:
+  - Bryn E. Matheson
+  - Matthias Walle
+  - Anna-Maria Liphardt
+  - Paul A. Hulme
+  - Martina Heer
+  - Sara R. Zwart
+  - Jean D. Sibonga
+  - Scott M. Smith
+  - Leigh Gabel
+  - Steven K. Boyd
+  publisher: npj Microgravity
+  date: '2025-07-28'
+  link: https://doi.org/hcmktd
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.JMR.2025.107925
+  title: Using solid-state MRI and a double-tuned RF coil to quantify bone matrix
+    and mineral densities in rat bones
+  authors:
+  - Victor B. Kassey
+  - Matthias Walle
+  - Diana Yeritsyan
+  - Daniel V. Kassey
+  - Yaotang Wu
+  - Brian D. Snyder
+  - Edward K. Rodriguez
+  - Jerome L. Ackerman
+  - Ara Nazarian
+  publisher: Journal of Magnetic Resonance
+  date: '2025-09-01'
+  link: https://doi.org/hcmktf
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1126/sciadv.adq3632
+  title: Tracking of spaceflight-induced bone remodeling reveals a limited time frame
+    for recovery of resorption sites in humans
+  authors:
+  - Matthias Walle
+  - Leigh Gabel
+  - Danielle E. Whittier
+  - Anna-Maria Liphardt
+  - Paul A. Hulme
+  - Martina Heer
+  - Sara R. Zwart
+  - Scott M. Smith
+  - Jean D. Sibonga
+  - Steven K. Boyd
+  publisher: Science Advances
+  date: '2024-12-20'
+  link: https://doi.org/g8wpqd
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/FBIOE.2024.1384280
+  title: A graph model to describe the network connectivity of trabecular plates and
+    rods
+  authors:
+  - Matthias Walle
+  - Diana Yeritsyan
+  - Mohammadreza Abbasian
+  - Ramin Oftadeh
+  - "Ralph M\xFCller"
+  - Ara Nazarian
+  publisher: Frontiers in Bioengineering and Biotechnology
+  date: '2024-05-06'
+  link: https://doi.org/hcmktg
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/JBMR/ZJAD014
+  title: Bone remodeling and responsiveness to mechanical stimuli in individuals with
+    type 1 diabetes mellitus
+  authors:
+  - Matthias Walle
+  - Ankita Duseja
+  - Danielle E Whittier
+  - Tatiane Vilaca
+  - Margaret Paggiosi
+  - Richard Eastell
+  - "Ralph M\xFCller"
+  - Caitlyn J Collins
+  publisher: Journal of Bone and Mineral Research
+  date: '2024-01-04'
+  link: https://doi.org/g8xs4x
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:001361790800216
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:001361790800216
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:001361790800259
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:001361790800259
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.BONE.2023.116996
+  title: Quantitative 31P magnetic resonance imaging on pathologic rat bones by ZTE
+    at 7T
+  authors:
+  - Victor B. Kassey
+  - Matthias Walle
+  - Jonathan Egan
+  - Diana Yeritsyan
+  - Indeevar Beeram
+  - Yaotang Wu
+  - Brian D. Snyder
+  - Edward K. Rodriguez
+  - Jerome L. Ackerman
+  - Ara Nazarian
+  publisher: Bone
+  date: '2024-03-01'
+  link: https://doi.org/hcmkth
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/JMRI.29361
+  title: "<scp>Q</scp>uantitative <sup>1</sup>H Magnetic Resonance Imaging on Normal\
+    \ and Pathologic Rat Bones by Solid\u2010State <sup>1</sup>H ZTE Sequence with\
+    \ Water and Fat Suppression"
+  authors:
+  - "V\xEDctor B. Kassey"
+  - Matthias Walle
+  - Jonathan Egan
+  - Diana Yeritsyan
+  - Indeevar Beeram
+  - Sharon P. Kassey
+  - Yaotang Wu
+  - Brian D. Snyder
+  - Edward K. Rodriguez
+  - Jerome L. Ackerman
+  - Ara Nazarian
+  publisher: Journal of Magnetic Resonance Imaging
+  date: '2024-03-25'
+  link: https://doi.org/hcmktj
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.BONE.2023.116893
+  title: A multi-stack registration technique to improve measurement accuracy and
+    precision across longitudinal HR-pQCT scans
+  authors:
+  - Danielle E. Whittier
+  - Matthias Walle
+  - Denis Schenk
+  - Penny R. Atkins
+  - Caitlyn J. Collins
+  - Philippe Zysset
+  - Kurt Lippuner
+  - "Ralph M\xFCller"
+  publisher: Bone
+  date: '2023-11-01'
+  link: https://doi.org/hcmktk
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:001266167002037
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:001266167002037
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:001266167001229
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:001266167001229
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:001266167000042
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:001266167000042
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/FBIOE.2023.1140673
+  title: Mechanostat parameters estimated from time-lapsed in vivo micro-computed
+    tomography data of mechanically driven bone adaptation are logarithmically dependent
+    on loading frequency
+  authors:
+  - Francisco C. Marques
+  - Daniele Boaretti
+  - Matthias Walle
+  - Ariane C. Scheuren
+  - Friederike A. Schulte
+  - "Ralph M\xFCller"
+  publisher: Frontiers in Bioengineering and Biotechnology
+  date: '2023-04-11'
+  link: https://doi.org/hcmktm
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2023.01.07.523082
+  title: "Mechanostat parameters estimated from time-lapsed\n                  <i>in\
+    \ vivo</i>\n                  micro-computed tomography data of mechanically driven\
+    \ bone adaptation are logarithmically dependent on loading frequency"
+  authors:
+  - Francisco C. Marques
+  - Daniele Boaretti
+  - Matthias Walle
+  - Ariane C. Scheuren
+  - Friederike A. Schulte
+  - "Ralph M\xFCller"
   publisher: openRxiv
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
+  date: '2023-01-08'
+  link: https://doi.org/gsx697
+  orcid: 0000-0003-3250-8143
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
+- id: doi:10.1016/J.BONE.2022.116607
+  title: Motion grading of high-resolution quantitative computed tomography supported
+    by deep convolutional neural networks
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
+  - Matthias Walle
+  - Dominic Eggemann
+  - Penny R. Atkins
+  - Jack J. Kendall
+  - Kerstin Stock
+  - "Ralph M\xFCller"
+  - Caitlyn J. Collins
+  publisher: Bone
+  date: '2023-01-01'
+  link: https://doi.org/hcmktn
+  orcid: 0000-0003-3250-8143
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
+- id: doi:10.1016/J.BONE.2023.116780
+  title: Precision of bone mechanoregulation assessment in humans using longitudinal
+    high-resolution peripheral quantitative computed tomography in vivo
   authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
+  - Matthias Walle
+  - Danielle E. Whittier
+  - Denis Schenk
+  - Penny R. Atkins
+  - Michael Blauth
+  - Philippe Zysset
+  - Kurt Lippuner
+  - "Ralph M\xFCller"
+  - Caitlyn J. Collins
+  publisher: Bone
+  date: '2023-07-01'
+  link: https://doi.org/hcmktp
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/S11914-022-00755-6
+  title: Meta-analysis of Diabetes Mellitus-Associated Differences in Bone Structure
+    Assessed by High-Resolution Peripheral Quantitative Computed Tomography
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
+  - Matthias Walle
+  - Danielle E. Whittier
+  - Morten Frost
+  - "Ralph M\xFCller"
+  - Caitlyn J. Collins
+  publisher: Current Osteoporosis Reports
+  date: '2022-10-03'
+  link: https://doi.org/hcmktq
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2139/ssrn.4130780
+  title: Motion Grading of High-Resolution Quantitative Computed Tomography Supported
+    by Deep Convolutional Neural Networks
+  authors:
+  - Matthias Walle
+  - Dominic Eggemann
+  - Penny  R. Atkins
+  - Jack  J. Kendall
+  - Kerstin Stock
+  - "Ralph M\xFCller"
+  - Caitlyn  J. Collins
+  publisher: Elsevier BV
+  date: '2022-01-01'
+  link: https://doi.org/hcmktr
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:000778074501206
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000778074501206
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:000778074500027
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000778074500027
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2021.02.22.431960
+  title: "Bone mechanoregulation allows subject-specific load estimation based on\
+    \ time-lapsed micro-CT and HR-pQCT\n                  <i>in vivo</i>"
+  authors:
+  - Matthias Walle
+  - Francisco C. Marques
+  - Nicholas Ohs
+  - Michael Blauth
+  - "Ralph M\xFCller"
+  - Caitlyn J. Collins
   publisher: openRxiv
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
+  date: '2021-02-23'
+  link: https://doi.org/hcmkts
+  orcid: 0000-0003-3250-8143
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
+- id: doi:10.1038/S41598-021-81132-8
+  title: Application of subject-specific adaptive mechanical loading for bone healing
+    in a mouse tail vertebral defect
   authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+  - Angad Malhotra
+  - Matthias Walle
+  - Graeme R. Paul
+  - Gisela A. Kuhn
+  - "Ralph M\xFCller"
+  publisher: Scientific Reports
+  date: '2021-01-21'
+  link: https://doi.org/hcmktt
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/FBIOE.2021.677985
+  title: Bone Mechanoregulation Allows Subject-Specific Load Estimation Based on Time-Lapsed
+    Micro-CT and HR-pQCT in Vivo
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
-  plugin: sources.py
-  file: sources.yaml
+  - Matthias Walle
+  - Francisco C. Marques
+  - Nicholas Ohs
+  - Michael Blauth
+  - "Ralph M\xFCller"
+  - Caitlyn J. Collins
+  publisher: Frontiers in Bioengineering and Biotechnology
+  date: '2021-06-25'
+  link: https://doi.org/gqrdqx
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:000593119300426
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000593119300426
+  orcid: 0000-0003-3250-8143
+  plugin: orcid.py
+  file: orcid.yaml
