@@ -1,0 +1,62 @@
+.card {
+  display: inline-flex;
+  justify-content: stretch;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+  max-width: calc(100% - 20px - 20px);
+  margin: 20px;
+  background: var(--background);
+  border: 1px solid rgba(216, 227, 240, 0.7);
+  border-radius: var(--rounded);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  vertical-align: top;
+}
+
+.card[data-style=small] {
+  width: 250px;
+}
+
+.card-image img {
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-image[data-fit=contain] {
+  display: block;
+  background: rgba(255, 255, 255, 0.94);
+}
+
+.card-image[data-fit=contain] img {
+  object-fit: contain;
+  padding: 4px;
+}
+
+.card-text {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 100%;
+  padding: 20px;
+  text-align: left;
+}
+
+.card-text > * {
+  margin: 0 !important;
+}
+
+.card-title {
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+}
+
+.card-subtitle {
+  margin-top: -10px !important;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=card.css.map */
